@@ -1,0 +1,15 @@
+header {
+  display: block;
+  width: 100%;
+}
+
+section {
+  width: 400;
+  display: inline-block;
+  float: right;
+}
+
+main section,
+footer {
+  padding: 100px;
+}
