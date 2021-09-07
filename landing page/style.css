@@ -1,0 +1,38 @@
+header {
+  display: block;
+  width: 100%;
+ 
+ 
+}
+
+section {
+ 
+  display: block;
+float: right;
+
+}
+.productly {
+  font-family: Impact, fantasy;
+  font-size: 25px;
+  position: absolute;
+}
+button {
+  width: 80px;
+  height: 35px;
+ 
+  color: white;
+}
+.buttonup {
+  background-color: #ffa908;
+ border: 0px;
+ border-radius: 5px;
+}
+div {
+  display: inline-block
+  
+}
+
+main section,
+footer {
+  padding: 100px;
+}
