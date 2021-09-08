@@ -1,38 +1,135 @@
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+  font-family: Gill Sans, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+}
 header {
   display: block;
   width: 100%;
- 
- 
 }
 
-section {
- 
-  display: block;
-float: right;
+.divone {
+  margin: 35px;
+  margin-left: 150px;
+}
 
+.divtwo {
+  float: right;
+  margin: 35px;
+  margin-right: 80px; 
 }
-.productly {
-  font-family: Impact, fantasy;
-  font-size: 25px;
-  position: absolute;
+
+.divthree > a{
+  margin-right: 15px;
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
 }
-button {
-  width: 80px;
-  height: 35px;
- 
-  color: white;
-}
-.buttonup {
-  background-color: #ffa908;
- border: 0px;
- border-radius: 5px;
-}
-div {
-  display: inline-block
+
+
+.divthree {
+  margin-right: 50px;
   
 }
 
-main section,
-footer {
-  padding: 100px;
+.productly {
+  color: rgb(30, 44, 63);
+  font-family: Marker Felt, fantasy;
+  font-size: 25px;
+  vertical-align: top;
+  text-decoration: none;
 }
+
+button {
+  width: 80px;
+  height: 35px;
+  color: white;
+}
+
+.buttonin {
+  
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+}
+.buttonin a {
+  text-decoration: none;
+  color: black;
+}
+
+.buttonup {
+  background-color: #ffa908;
+  border: 0px;
+  border-radius: 5px;
+}
+
+.buttonup a {
+  text-decoration: none;
+  color: white;
+}
+
+div {
+  display: inline-block;
+}
+
+
+
+.getstarted {
+  background-color: #ffa908;
+  border: 0px;
+  border-radius: 5px;
+  width: 120px; 
+}
+
+.getstarted a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.watch {
+  color:  #ffa908;
+  font-family: Gill Sans, sans-serif;
+  font-size: 15px;
+ }
+
+.picture1 {
+  width: 500px;
+  height: 470px;
+ }
+
+ .text1 {
+  margin: 155px;
+  position:relative;
+  top: -135px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+
+.triangle{
+  margin-left: 20px;
+  margin-bottom: -6px;
+  width: 15px;
+}
+ 
+
