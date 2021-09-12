@@ -1,4 +1,7 @@
 body {
+  margin: 44px;
+  margin-top: 5px;
+  margin-left: 10px;
   font-family: Gill Sans, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -12,7 +15,7 @@ header {
 
 .divone {
   margin: 35px;
-  margin-left: 150px;
+  margin-left: 170px;
 }
 
 .divtwo {
@@ -88,10 +91,15 @@ div {
   text-decoration: none;
 }
 
+
 .watch {
   color:  #ffa908;
   font-family: Gill Sans, sans-serif;
   font-size: 15px;
+  position: absolute;
+  bottom: 3px;
+  right: 118px;
+ margin-right: -7px;
 }
 
 .picture1 {
@@ -107,9 +115,16 @@ div {
 } 
 
 .triangle{
-  margin-left: 20px;
+  margin-left: 24px;
   margin-bottom: -6px;
   width: 15px;
+  position: relative;
+}
+
+.section2 {
+  margin-top: -130px;
+  background: url(/Bg.svg) bottom no-repeat;
+  padding: 0px 0px 0px 0px;
 }
 
 .title2sect {
@@ -123,6 +138,7 @@ div {
   text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 22px;
+  
   }
 .icon >div {
   text-align: left;
@@ -145,3 +161,65 @@ div {
   font-weight: bold;
   font-size: 11px;  
  }
+
+.section3 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 155px;
+}
+.boy-svg3 {
+  width: 450px;
+  height: 480px;
+}
+
+.picture3 {
+  float: right;
+}
+.section4 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 155px;
+  margin-top: -60px;
+   
+  
+}
+
+.boy-svg4 {
+  width: 380px;
+  height: 470px;
+  
+}
+
+.p-icons {
+  background: url('./icon\ \(4\).svg') left no-repeat ;
+  padding: 10px 0px 10px 65px;
+}
+
+.prod-man {
+  margin-left: 45px;
+  position: absolute;
+}
+
+.section5 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 138px;
+  margin-top: -60px;
+}
+
+.boy-svg5 {
+  width: 440px;
+  height: 485px;
+  margin-left: 100px;
+} 
+
+.picture5 {
+
+}
+
+.block5 {
+
+}
