@@ -7,12 +7,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
+  <!-- сброса дефолтных стилей нету -->
 </head>
 
 <body>
+<!-- Выглядит нормально, но пока еще есть замечания -->
+<!-- 1) горизонтальный-скролл - его недолжно быть. Нужно найти и исправить причину почему он появляется.
+     2) на большом разрешении страница - непоцентру.
+-->
 
   <header>
-    <div class="divone">
+    <div class="divone"> <!-- название класса непонятное и не говорящие(что за блок, и за что отвечает) -->
+      <!-- иконка не кликабельна-->
       <svg width="32" height="30" vievbox="0 0 32 30" fill="none" xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink">
         <rect x="0.924316" width="30.1622" height="30" rx="7" fill="#D8D8D8" />
@@ -33,16 +39,16 @@
       <a href="/" class="productly">Productly</a>
 
     </div>
-    <div class="divtwo">
-      <div class="divthree">
+    <div class="divtwo">  <!-- название класса -->
+      <div class="divthree"> <!-- название класса -->
         <a href="/" class="product">Product</a>
         <a href="/" class="customers">Customers</a>
         <a href="/" class="prisng">Pricng</a>
         <a href="/" class="recources">Recources</a>
       </div>
       <div>
-        <button type="submit" class="buttonin">
-          <a href="/"><b>
+        <button type="submit" class="buttonin">  <!-- название класса -->
+          <a href="/"><b> <!-- с таким выделение запись всегда будет жирной, а нам нужно по навидению или по активности-->
               Sign in</b></a></button>
         <button type="submit" class="buttonup"> <a href="/">Sign up</a></button>
       </div>
@@ -50,7 +56,7 @@
   </header>
 
   <main>
-    <section class="sectione">
+    <section class="sectione"> <!-- название класса -->
       <div class="text1">
         <h1>The Design Thinking <br>superpowers</h1>
         <p>
@@ -61,14 +67,14 @@
         </p>
         <div>
           <button type="submit" class="getstarted"><a href="/">Get sarted</a></button>
-          <a href="/">
+          <a href="/">  <!-- ето будут разные ссылки ? -->
             <svg class="triangle" width="17" height="19" viewbox="0 0 17 19" fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" clip-rule="evenodd"
                 d="M15.8516 8.53032C16.591 8.96531 16.591 10.0347 15.8516 10.4697L2.1954 18.5027C1.44543 18.9439 0.5 18.4031 0.5 17.533V1.46697C0.5 0.596876 1.44543 0.0561381 2.1954 0.497293L15.8516 8.53032Z"
                 fill="#FF9900" />
             </svg></a>
-          <a href="/" class="watch">Watch the Video</a>
+          <a href="/" class="watch">Watch the Video</a>   <!-- ето будут разные ссылки ?  Если нет, то нужно обьедениеть-->
         </div>
       </div>
       <div>
@@ -562,7 +568,7 @@
     </section>
   </main>
 
-  <section>
+  <section> <!-- тег/блок должен входить в main - так как ета информация/Секкция тоже является главным контентом страници -->
     <h2 class="title2sect">We design tools to unveil<br>your superpowers</h2>
     <div class="icon">
       <div class="icon1">
