@@ -13,18 +13,18 @@ header {
   width: 100%;
 }
 
-.divone {
+.logo {
   margin: 35px;
   margin-left: 170px;
 }
 
-.divtwo {
+.navigation {
   float: right;
   margin: 35px;
   margin-right: 80px; 
 }
 
-.divthree > a{
+.div-nav > a {
   margin-right: 15px;
   font-size: 14px;
   text-decoration: none;
@@ -32,7 +32,7 @@ header {
 }
 
 
-.divthree {
+.div-nav {
   margin-right: 50px;
   
 }
@@ -51,23 +51,23 @@ button {
   color: white;
 }
 
-.buttonin {
-  
+.butt-in-nav { 
   border: 1px solid gainsboro;
   border-radius: 5px;
 }
-.buttonin a {
+
+.butt-in-nav a {
   text-decoration: none;
   color: black;
 }
 
-.buttonup {
+.butt-up-nav {
   background-color: #ffa908;
   border: 0px;
   border-radius: 5px;
 }
 
-.buttonup a {
+.butt-up-nav a {
   text-decoration: none;
   color: white;
 }
@@ -75,8 +75,6 @@ button {
 div {
   display: inline-block;
 }
-
-
 
 .getstarted {
   background-color: #ffa908;
@@ -90,7 +88,6 @@ div {
   font-weight: bold;
   text-decoration: none;
 }
-
 
 .watch {
   color:  #ffa908;
@@ -121,10 +118,9 @@ div {
   position: relative;
 }
 
-.section2 {
+.sect-des-tools {
   margin-top: -130px;
-  background: url(/Bg.svg) bottom no-repeat;
-  padding: 0px 0px 0px 0px;
+ 
 }
 
 .title2sect {
@@ -132,7 +128,7 @@ div {
   margin: 35px;
   line-height: 40px;
 }
-.icon {
+.icon-block {
   display: inline-block;
   width: 100%;
   text-align: center;
@@ -140,12 +136,12 @@ div {
   margin: 22px;
   
   }
-.icon >div {
+.icon-block >div {
   text-align: left;
   margin: 15px;
   margin-left: 20px;
  }
-.button2 {
+.but-up-nov {
   display: block;
   background-color: #ffa908;
   border: 0px;
@@ -155,14 +151,16 @@ div {
   margin-right: auto; 
  }
 
-.button2 a {
+.but-up-nov a {
   color: white;
   text-decoration: none;
   font-weight: bold;
   font-size: 11px;  
  }
 
-.section3 {
+ 
+
+.des-prof {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 18px;
   line-height: 24px;
@@ -173,28 +171,15 @@ div {
   height: 480px;
 }
 
-.picture3 {
+.picture {
   float: right;
 }
-.section4 {
+.product {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 18px;
   line-height: 24px;
   margin: 155px;
   margin-top: -60px;
-   
-  
-}
-
-.boy-svg4 {
-  width: 380px;
-  height: 470px;
-  
-}
-
-.p-icons {
-  background: url('./icon\ \(4\).svg') left no-repeat ;
-  padding: 10px 0px 10px 65px;
 }
 
 .prod-man {
@@ -202,7 +187,7 @@ div {
   position: absolute;
 }
 
-.section5 {
+.marketers {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 18px;
   line-height: 24px;
@@ -210,16 +195,61 @@ div {
   margin-top: -60px;
 }
 
-.boy-svg5 {
+.boy-marketers {
   width: 440px;
   height: 485px;
   margin-left: 100px;
 } 
 
-.picture5 {
-
+.hr-line {
+  width: 1025px;
 }
 
-.block5 {
+.button-end {
+  background-color: #ffa908;
+  border: 0px;
+  border-radius: 5px;
+  width: 100px;
+  margin-top: 20px;
+}
+.button-end a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+}
 
+footer > .logo {
+  display: block;
+}
+input[type="text"] {
+  display: block;
+  height: 28px;
+ }
+
+.block {
+  float: right;
+  padding-right: 121px;
+  padding: 40px;
+}
+
+.block>div {
+  padding-right: 93px;
+}
+
+.block:nth-child(2) {
+  padding-right: 40px;
+}
+
+.block li {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  list-style-type: none;
+}
+
+.lists-mot {
+  padding-right: 80px;
+}
+li a {
+  color: black;
+  text-decoration: none;
 }
