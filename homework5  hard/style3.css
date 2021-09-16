@@ -16,7 +16,6 @@ main {
 .picture {
   width: 152px;
   height: 114px;
-  
 }
 
 .image { 
@@ -31,16 +30,16 @@ main {
   display: inline-block;
 }
 
-.div-home:nth-child(1) {
+.div-home {
   float: left;
   padding-left: 20px;
 }
 
-.div-about:nth-child(2) {
+.div-about {
   padding-right: 80px;
 }
 
-.div-contact:nth-child(4) {
+.div-contact {
   float: right;
   padding-right: 20px;
 }
@@ -56,8 +55,7 @@ section .left {
 section .left a {
   color: #e95b11;
   float: left;
-  line-height: 40px;
-  
+  line-height: 40px; 
 }
 
 div > p {
@@ -65,6 +63,7 @@ div > p {
   text-align: left;
   display: inline-block;
 }
+
 .right {
   width: 154px;
   height: 294px;
@@ -87,6 +86,7 @@ h4 {
   margin: 0px;
   background-color: #bdbdbd;
 }
+
 hr {
   width: 74px;
 }
@@ -97,4 +97,3 @@ footer {
   vertical-align: bottom;
   margin-top: 45px;
 }
-
