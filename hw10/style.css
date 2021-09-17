@@ -1,0 +1,84 @@
+body {
+  background-color: white;
+  height: 1000px; 
+}
+header {
+  text-align: center;
+  margin-top: 120px;
+  
+}
+
+header p {
+  font-family: "Montserrat", sans-serif;
+  color: #898f99;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+
+header h1 {
+  font-size: 48px;
+  letter-spacing: 5px;
+  line-height: 30px;
+  color: #0ec8cb;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+
+header p:last-child {
+  font-size: 18px;
+  line-height: 30px;
+  color: #999999;
+  font-weight: 400;
+  font-family: "PT Sans", sans-serif;
+  width: 55%;
+  margin: 0 auto;
+  padding: 2%;
+  padding-top: 20px;
+}
+
+section {
+  font-size: 0;
+  margin: 195px;
+  margin-top: 60px;
+}
+
+section div {
+  display: inline-block;
+  width: 25%;
+  height: 420px;
+  background-color: #f7f7f7;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 25px;
+  vertical-align: top;
+}
+
+section div svg {
+  width: 64px;
+  height: 65px;
+  margin: 60px;
+} 
+
+section div:hover, div:hover h2, div:hover p,
+div:hover .shp0 {
+  background: #0ec8cb; 
+  color: white; 
+  fill: white;
+}
+
+section div h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 21px;
+  color: #1b1b1b;
+}
+.section2 h2 {
+  margin-top: 0px;
+}
+
+section div p {
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: #777777;
+}
