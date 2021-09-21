@@ -1,0 +1,158 @@
+body {
+  background-color: #3399cc;
+  font-family:  “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+  margin: 0px 340px; 
+}
+
+* {
+  transition: all .1s ease-in;
+}
+
+header h2 {
+  color: white; 
+  font-weight: 450;
+}
+
+.wi-sunrise {
+  margin: 2px;
+}
+
+section ul {
+  font-size: 0;
+  padding-left: 0px;
+  background-color: #fff;
+}
+
+ul:hover li:not(:hover) {
+  opacity: 0.7;
+}
+
+section ul li {
+  height: 110px;
+  list-style-type: none;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  box-sizing: border-box;
+  font-weight: 500;
+}
+
+section ul li p {
+  color: #bfdfef;
+  font-size: 18px;
+}
+
+section ul li p i {
+  padding-left: 5px;
+  font-size: 25px;
+}
+
+section ul .lisbon {
+  background-color: #3399cc;
+  width: 50%;
+  border-top: 4px solid white;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  border-left: 4px solid white;
+}
+
+
+
+section ul .paris {
+  background-color:mediumturquoise;
+  width: 25%;
+  border-top: 4px solid white;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+}
+
+section ul .belgrade {
+  background-color: #955ca3;
+  width: 25%;
+  border-top: 4px solid white;
+  border-right: 4px solid white;
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+}
+
+section ul .moscov {
+  background-color: #c24747;
+  width: 25%;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  border-left: 4px solid white;
+}
+
+section ul .telaviv {
+  background-color: #e2674a;
+  width: 25%;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+}
+
+section ul .cair {
+  background-color:#ffcc66;
+  width: 25%;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+}
+
+section ul .newyork {
+  background-color: #99cc99;
+  width: 25%;
+  border-top: 2px solid white;
+  border-right: 4px solid white;
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+}
+
+section ul .newdelhi {
+  background-color: #669999;
+  width: 25%;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  border-left: 4px solid white;
+}
+
+section ul .sanfrancisco {
+  background-color: #cc6699;
+  width: 50%;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+}
+
+section ul .tokio {
+  background-color: #339966;
+  width: 25%;
+  border-top: 2px solid white;
+  border-right: 4px solid white;
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+}
+
+section ul .sydney {
+  background-color: #666699;
+  width: 100%;
+  border-top: 2px solid white;
+  border-right: 4px solid white;
+  border-bottom: 4px solid white;
+  border-left: 4px solid white;
+}
+
+footer h4 {
+  color: #fff;
+  font-weight: normal;
+}
+
+
+
