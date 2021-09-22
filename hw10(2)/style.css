@@ -36,6 +36,7 @@ section ul li {
   color: white;
   box-sizing: border-box;
   font-weight: 500;
+  padding: 22px;
 }
 
 section ul li p {

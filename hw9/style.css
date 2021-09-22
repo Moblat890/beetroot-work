@@ -1,0 +1,147 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+  background-color: #f9f9fb;
+  width: 100%;
+}
+
+header {
+  padding: 40px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+header .logo {
+  font-size: 50px;
+  line-height: 50px;
+  color: #262626;
+  font-weight: 400;
+  font-family: "Pacifico", cursive;
+  text-decoration: none;
+}
+
+header nav {
+  width: 50%;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav ul li {
+  display: inline-block;
+  
+}
+
+header nav ul li:hover {
+  border-top: 3px solid #ff5f33;
+  
+}
+
+header nav ul a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 25px;
+  color: #262626;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+}
+
+.fresh-life-sect {
+  display: inline-block;
+}
+
+section {
+ 
+}
+
+section .freshlife-sect {
+  display: flex;
+  align-items: center;
+}
+
+section .freshlife-sect div {
+
+}
+
+section .freshlife-sect div h1 {
+  font-size: 60px;
+  line-height: 25px;
+  color: #262626;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+}
+
+section .freshlife-sect div p {
+  width: 370px;
+  height: 69px;
+  font-size: 17px;
+  line-height: 27px;
+  color: #262626;
+  font-weight: 300;
+  font-family: "Raleway", sans-serif;
+}
+
+section .freshlife-sect div a {
+  
+
+  
+  
+}
+
+section .freshlife-sect img {
+width: 100%;
+}
+
+section .freshlife-sect div a button {
+  background-color: #ff5f33;
+  color:white;
+  width: 200px;
+  height: 55px;
+  filter: drop-shadow(0px 2px 2.5px rgba(0,0,0,0.5));
+}
