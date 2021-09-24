@@ -75,7 +75,6 @@ main .bronze {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  /* position: relative; */
 }
 
 main .bronze .bronze-cup {
@@ -120,7 +119,6 @@ main .gold {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  /* position: relative; */
 }
 
 .gold .gold-cup {
