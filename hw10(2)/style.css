@@ -1,7 +1,6 @@
 body {
-  background-color: #3399cc;
+  background-color: #000;
   font-family:  “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
-  margin: 0px 340px; 
 }
 
 * {
@@ -16,6 +15,14 @@ header h2 {
 .wi-sunrise {
   margin: 2px;
 }
+
+section {
+  padding: 20px 100px 70px 100px;
+  margin: 150px;
+  background: #3399cc;
+  border: 20px solid #2b81ac;
+}
+
 
 section ul {
   font-size: 0;
