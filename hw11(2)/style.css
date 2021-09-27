@@ -42,8 +42,102 @@ table {
 	border-spacing: 0;
 }
 
+@font-face {
+  font-family: "Hans Kendrick";
+  src: url('./fonts/neuehanskendrick-regular.woff2') format('woff2'),
+       url('./fonts/neuehanskendrick-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 main {
   width: 1600px;
   height: 1400px;
   background-color: #e2e7ec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .collage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 90px 240px;
+}
+
+main .red-car {
+  width: 740px;
+  height: 540px;
+  padding-bottom: 20px;
+}
+
+main .red-car h5 {
+  font-size: 13px;
+  letter-spacing: 0px;
+  line-height: 30px;
+  color: #e6e2df;
+  font-weight: 500;
+  font-family: "Hans Kendrick", sans-serif;
+  margin-top: -140px;
+  padding-left: 40px;
+}
+
+main .red-car h1 {
+  font-size: 30px;
+  letter-spacing: 1px;
+  line-height: 36px;
+  color: #ffffff;
+  font-family: "Hans Kendrick", sans-serif;
+  font-weight: 600;
+  width: 60%;
+  padding-left: 40px;
+}
+
+main .collage .pictures {
+  width: 360px;
+  height: 540px;
+  background-color: #fff;
+}
+
+main .pictures h5 {
+  font-size: 13px;
+  letter-spacing: 0px;
+  line-height: 30px;
+  color: #818181;
+  font-weight: 500;
+  font-family: "Hans Kendrick", sans-serif;
+  padding: 20px 0 10px 30px;
+}
+
+main .pictures h2 {
+  font-size: 22px;
+  letter-spacing: 1px;
+  line-height: 30px;
+  color: #1d1d1d;
+  font-family: "Hans Kendrick", sans-serif;
+  font-weight: 600;
+  padding-left: 30px;
+}
+
+main .pictures img:last-child {
+  padding: 57px 0 25px 30px;
+}
+
+main .collage div:nth-child(4) h2 {
+  padding-top: 60px;
+}
+
+main footer {
+  margin: 70px auto 0;
+  display: flex;
+  font-size: 13px;
+  line-height: 30px;
+  color: #99a5b0;
+  font-family: "Hans Kendrick", sans-serif;
+  font-weight: 600;
+}
+
+main footer span {
+  padding-left: 10px;
 }
