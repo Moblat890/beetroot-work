@@ -145,13 +145,11 @@ main footer {
   position: absolute;
   left: 265px;
   top: 480px;
+  vertical-align: middle;
 }
 
 main footer img {
   padding-left: 6px;
 }
 
-main footer > img {
-  vertical-align: middle;
-}
 
