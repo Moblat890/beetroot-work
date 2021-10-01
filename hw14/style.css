@@ -114,13 +114,9 @@ main section .content .dropdown {
 
 }
 
-main section .content .dropdown img {
-  padding-left: 7px;
-}
-
-main section .content span {
+main section .content select {
   font-size: 14px;
-  line-height: 18px;
+  background-color: #111a28;
   color: #e1e1e1;
   font-family: "Museo Sans Rounded", sans-serif;
   border: 1px solid #4c525a;
