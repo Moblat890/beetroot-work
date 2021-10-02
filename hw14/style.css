@@ -11,6 +11,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
+  /* не круто ... отдельным файлом */
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -42,6 +43,7 @@ table {
 	border-spacing: 0;
 }
 
+/* круто */
 @font-face {
   font-family: "Museo Sans Rounded";
   src: url("./fonts/MuseoSansRounded-100.woff2") format('woff2'),
@@ -106,11 +108,11 @@ main section .content p {
 }
 
 main section .content .images {
-  padding-top: 20px;
+  padding-top: 20px; /* Вопрос что такое падинги - и что такое марджены  */
 }
 
 main section .content .dropdown {
-  padding-top: 30px;
+  padding-top: 30px;/* Вопрос что такое падинги - и что такое марджены  */
 
 }
 
@@ -123,7 +125,13 @@ main section .content select {
   padding: 6px 12px;
 }
 
-main section .content a {
+main section .content .button {
+  padding-top: 58px; /* Вопрос что такое падинги - и что такое марджены
+  самайл(рука-лицо)... */
+}
+
+main section .content .button  a {
+  /* зато тут все четко */
   background-color: #202835;
   font-size: 14px;
   border: 1px solid #4c525a;
@@ -131,10 +139,6 @@ main section .content a {
   text-decoration: none;
   color: #ffffff;
   padding: 10px 53px;
-}
-
-main section .content .button {
-  padding-top: 58px;
 }
 
 main footer {

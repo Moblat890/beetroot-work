@@ -1,7 +1,4 @@
 body {
-  margin: 44px;
-  margin-top: 5px;
-  margin-left: 10px;
   font-family: Gill Sans, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -13,9 +10,6 @@ header {
   width: 100%;
 }
 
-<<<<<<< HEAD
-.logo {
-=======
 /* 1) непонятный класс, непонятно к какому блоку/елементу на странице.
    2) Проблема глобальных стилей/классов.
    3) отсутствует выравнивание кода, как в CSS так и в ХТМЛ
@@ -30,26 +24,17 @@ header {
    button - итд.
 */
 .divone {
->>>>>>> aa7ed6deb5e1bc6666c4c99eebb88bc65291bb46
   margin: 35px;
-  margin-left: 170px;
+  margin-left: 150px;
 }
 
-<<<<<<< HEAD
-.navigation {
-=======
 .divtwo { /* проблема глобальных классов */
->>>>>>> aa7ed6deb5e1bc6666c4c99eebb88bc65291bb46
   float: right;
   margin: 35px;
-  margin-right: 80px; 
+  margin-right: 80px;
 }
 
-<<<<<<< HEAD
-.div-nav > a {
-=======
 .divthree > a{ /* уже лучше, но все еще недостаточно конкретно */
->>>>>>> aa7ed6deb5e1bc6666c4c99eebb88bc65291bb46
   margin-right: 15px;
   font-size: 14px;
   text-decoration: none;
@@ -57,9 +42,9 @@ header {
 }
 
 
-.div-nav {
+.divthree {
   margin-right: 50px;
-  
+
 }
 
 .productly {
@@ -76,23 +61,23 @@ button {
   color: white;
 }
 
-.butt-in-nav { 
+.buttonin {
+
   border: 1px solid gainsboro;
   border-radius: 5px;
 }
-
-.butt-in-nav a {
+.buttonin a {
   text-decoration: none;
   color: black;
 }
 
-.butt-up-nav {
+.buttonup {
   background-color: #ffa908;
   border: 0px;
   border-radius: 5px;
 }
 
-.butt-up-nav a {
+.buttonup a {
   text-decoration: none;
   color: white;
 }
@@ -101,11 +86,13 @@ div {
   display: inline-block;
 }
 
+
+
 .getstarted {
   background-color: #ffa908;
   border: 0px;
   border-radius: 5px;
-  width: 120px; 
+  width: 120px;
 }
 
 .getstarted a {
@@ -118,10 +105,6 @@ div {
   color:  #ffa908;
   font-family: Gill Sans, sans-serif;
   font-size: 15px;
-  position: absolute;
-  bottom: 3px;
-  right: 118px;
- margin-right: -7px;
 }
 
 .picture1 {
@@ -129,23 +112,17 @@ div {
   height: 470px;
 }
 
- .text1 {
+.text1 {
   margin: 155px;
   position:relative;
   top: -135px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-} 
-
-.triangle{
-  margin-left: 24px;
-  margin-bottom: -6px;
-  width: 15px;
-  position: relative;
 }
 
-.sect-des-tools {
-  margin-top: -130px;
- 
+.triangle{
+  margin-left: 20px;
+  margin-bottom: -6px;
+  width: 15px;
 }
 
 .title2sect {
@@ -153,128 +130,31 @@ div {
   margin: 35px;
   line-height: 40px;
 }
-.icon-block {
+.icon {
   display: inline-block;
   width: 100%;
   text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 22px;
-  
-  }
-.icon-block >div {
+}
+.icon >div {
   text-align: left;
   margin: 15px;
   margin-left: 20px;
- }
-.but-up-nov {
+}
+.button2 {
   display: block;
   background-color: #ffa908;
   border: 0px;
   border-radius: 5px;
-  width: 120px;   
+  width: 120px;
   margin-left: auto;
-  margin-right: auto; 
- }
+  margin-right: auto;
+}
 
-.but-up-nov a {
+.button2 a {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  font-size: 11px;  
- }
-
- 
-
-.des-prof {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 18px;
-  line-height: 24px;
-  margin: 155px;
-}
-.boy-svg3 {
-  width: 450px;
-  height: 480px;
-}
-
-.picture {
-  float: right;
-}
-.product {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 18px;
-  line-height: 24px;
-  margin: 155px;
-  margin-top: -60px;
-}
-
-.prod-man {
-  margin-left: 45px;
-  position: absolute;
-}
-
-.marketers {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 18px;
-  line-height: 24px;
-  margin: 138px;
-  margin-top: -60px;
-}
-
-.boy-marketers {
-  width: 440px;
-  height: 485px;
-  margin-left: 100px;
-} 
-
-.hr-line {
-  width: 1025px;
-}
-
-.button-end {
-  background-color: #ffa908;
-  border: 0px;
-  border-radius: 5px;
-  width: 100px;
-  margin-top: 20px;
-}
-.button-end a{
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 12px;
-}
-
-footer > .logo {
-  display: block;
-}
-input[type="text"] {
-  display: block;
-  height: 28px;
- }
-
-.block {
-  float: right;
-  padding-right: 121px;
-  padding: 40px;
-}
-
-.block>div {
-  padding-right: 93px;
-}
-
-.block:nth-child(2) {
-  padding-right: 40px;
-}
-
-.block li {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  list-style-type: none;
-}
-
-.lists-mot {
-  padding-right: 80px;
-}
-li a {
-  color: black;
-  text-decoration: none;
+  font-size: 11px;
 }
