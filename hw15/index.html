@@ -6,23 +6,61 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <select name="data" id="numb">
-    <option value="Size" selected>Size</option>
-    <option value="40">40</option>
-    <option value="41">41</option>
-    <option value="42">42</option>
-  </select>
 
-  <select name="data" id="qty">
-    <option value="Qty" selected>Qty</option>
-    <option value="1">1</option>
-    <option value="2">2</option>
-    <option value="3">3</option>
-  </select>
+  <div class="block">
+    <div class="block__panel">
+      <div class="tabs block__tabs">
+        <ul class="tabs__list">
+          <li class="tabs__item" tabindex="">
+            <a href="/" class="tabs__link">Sign in</a>
+          </li>
+          <li class="tabs__item" tabindex="">
+            <a href="/" class="tabs__link tabs__link--active">Join us</a>
+          </li>
+          <li class="tabs__devider"></li>
+        </ul>
+        <div class="tabs__body">
+          <div class="tabs__content">
+            <form action="#" method="get">
+              <div class="form">
+                <div class="form__filling">
+                  <label class="form__label" for="username">Username</label>
+                  <input class="form__input" minlength="3" type="text" name="username" id="username" tabindex="">
+                  <div class="form__error">error</div>
+                </div>
+                <div class="form__filling">
+                  <label class="form__label" for="password">Password</label>
+                  <input class="form__input" type="password" required name="password" id="password" tabindex="">
+                  <div class="form__error">error</div>
+                </div>
+                <div class="form__filling form__filling--checkbox">
+                  <input checked type="checkbox" name="keep" id="keep" tabindex="">
+                  <label class="form_label form_label--checkbox" for="keep">
+                    <span class="form__checkbox">&#10004;</span>
+                    Keep me signed in
+                  </label>
+                </div>
+                <div class="form__filling form__filling--submit">
+                  <button class="btn btn--press" type="submit" tabindex="">Sign in</button>
+                </div>
+                <div class="form__header">
+                  <a href="/" class="form__link">Forgot password</a>
+                  <a href="/" class="form__link">Create an account</a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>

@@ -1,0 +1,120 @@
+
+
+body {
+  background-color: #000000;
+  margin: 40px 270px;
+}
+
+.block {
+  background-color: #e5eeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 809px;
+  height: 574px;
+}
+
+.block__panel {
+  background: linear-gradient (45deg, #2c20a8, #c572d8);
+  background-image: url(../VectorSmartObject.png);
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 497px;
+}
+
+.tabs {
+  font-family: "Quicksand", sans-serif;
+  color: #fbf6e4;
+}
+.block__tabs {
+  padding: 50px 70px ;
+}
+.tabs__list {
+  display: flex;
+  font-size: 18px;
+  
+}
+.tabs__item { 
+}
+
+.tabs__link {
+  color: #fbf6e4;
+}
+
+.tabs__link--active {
+  padding-left: 25px;
+}
+
+.tabs__body {
+  padding-top: 50px;
+}
+
+.tabs__content {
+}
+
+.form {
+}
+
+.form__filling {
+  display: grid;
+}
+
+.form__label {
+  font-size: 16px;
+}
+
+.form__input {
+  width: 255px;
+  height: 33px;
+  background-color: rgba(229,238,238,0);
+  border: 2px solid rgba(191,185,204,0.54);
+}
+
+.form__error {
+  font-size: 12px;
+  color: #fa0606;
+}
+
+.form__filling--checkbox {
+  display: block;
+}
+
+.form_label {
+}
+
+.form_label--checkbox {
+  font-size: 13px;
+}
+
+.form__checkbox {
+  
+}
+
+.form__filling--submit {
+}
+
+.btn {
+}
+
+.btn--press {
+  margin-top: 45px;
+  width: 261px;
+  height: 42px;
+  background-color: #23ae92;
+  border: 0;
+  font-size: 18px;
+  color: #fbf6e4;
+}
+
+.form__header {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  
+}
+
+.form__link {
+  color: #b9b9cc;
+}
+

@@ -1,47 +1,40 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
 }
+
 body {
-	line-height: 1;
+  line-height: 1;
 }
+
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
+
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
- 
+
 body {
   background-color: #000;
 }
@@ -84,7 +77,6 @@ body {
   padding: 50px;
 }
 
-
 .item-blog {
   position: relative;
 }
@@ -92,18 +84,18 @@ body {
 .item-blog:hover {
   width: 370px;
   height: 310px;
-  filter: drop-shadow(0px 4px 5px rgba(0,0,0,0.5));
+  filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.5));
   background-color: #fbfbf7;
-} 
+}
 
 .item-blog__image img {
   width: 371px;
   height: 313px;
-  filter: drop-shadow(0px 2px 2.5px rgba(0,0,0,0.5));
+  filter: drop-shadow(0px 2px 2.5px rgba(0, 0, 0, 0.5));
 }
 
 .item-blog__title {
-  background: gray; 
+  background: gray;
   width: 60px;
   height: 60px;
   border-radius: 5px;
@@ -124,7 +116,7 @@ body {
 }
 
 .item-blog__text {
-  width: 365px;
+  width: 350px;
   height: 79px;
   font-size: 20px;
   line-height: 25px;
@@ -148,7 +140,7 @@ body {
 .blog__footer {
   width: 200px;
   height: 55px;
-  filter: drop-shadow(0px 2px 2.5px rgba(0,0,0,0.5));
+  filter: drop-shadow(0px 2px 2.5px rgba(0, 0, 0, 0.5));
   background-color: #f72b3b;
   display: flex;
   align-items: center;

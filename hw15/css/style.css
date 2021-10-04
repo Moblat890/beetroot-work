@@ -1,0 +1,231 @@
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block
+}
+
+body {
+  line-height: 1
+}
+
+ol, ul {
+  list-style: none
+}
+
+blockquote, q {
+  quotes: none
+}
+
+blockquote:after, blockquote:before, q:after, q:before {
+  content: "";
+  content: none
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  min-height: 100hv;
+  background-color: #e5eeee;
+}
+
+.block {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.block__panel {
+  max-width: 400px;
+  background-image: url(../VectorSmartObject.png);
+  background-size: cover;
+  padding: 50px 70px;
+  position: relative;
+  box-shadow: 0 0 20px rgba(2, 41, 120, 0.1);
+}
+
+.block__panel::before {
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 25px;
+  width: calk(100% - 50px);
+  height: 70px;
+  opacity: .8;
+  box-shadow: 0 0 70px 20px rgba(2, 41, 120, 0.8);
+}
+
+.block__panel::after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(32deg, #3023ae 0%, #c86dd7 100%);
+  opacity: .8;
+  z-index: 0;
+}
+
+.block__panel>* {
+  position: relative;
+  z-index: 1;
+}
+
+.tabs {
+  color: #fbf6e4
+}
+
+.block__tabs {}
+
+.tabs__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  position: relative;
+}
+
+.tabs__item:not(:last-child) {
+  margin-right: 24px;
+}
+
+.tabs__link {
+  color: #e1c2f1;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.tabs__link:focus {
+  outline: 1px solid #3927fa;
+}
+
+.tabs__link--active {
+  padding-left: 25px
+}
+
+.tabs__body {
+  padding-top: 50px
+}
+
+.form__filling {
+  display: -ms-grid;
+  display: grid
+}
+
+.form__label {
+  font-size: 16px
+}
+
+.form__input {
+  width: 252px;
+  height: 33px;
+  background-color: rgba(229, 238, 238, 0);
+  border: 2px solid rgba(191, 185, 204, 0.54);
+  margin-top: 10px;
+}
+
+.form__input:focus {
+  outline: 2px solid #23ae92;
+}
+
+.form__input:invalid+.form__error {
+  visibility: visible;
+}
+
+.form__error {
+  font-size: 12px;
+  color: #fa0606;
+  visibility: hidden;
+}
+
+.form__filling--checkbox {
+  padding: 5px 0;
+}
+
+[type=checkbox] {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+  opacity: 0;
+}
+
+.form_label--checkbox {
+  display: flex;
+  align-items: center;
+  letter-spacing: 1px;
+  font-size: 13px;
+}
+
+[type=checkbox]:checked+.form__label .form__checkbox {
+  font-size: 12px;
+}
+
+[type=checkbox]:focus+.form__label .form__checkbox {
+  border: 2px solid #e66a64;
+}
+
+.form__checkbox {
+  width: 16px;
+  height: 16px;
+  background-color: #23ae92;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0;
+  border: 2px solid #23ae92;
+  transition: ease .3s font-size;
+  margin-right: 7px;
+}
+
+.btn--press {
+  margin-top: 45px;
+  width: 260px;
+  height: 39px;
+  background-color: #23ae92;
+  border: 0;
+  font-size: 18px;
+  color: #fbf6e4;
+  cursor: pointer;
+}
+
+.btn--press:focus {
+  outline: 1px solid #fa7406;
+}
+
+.form__header {
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 13px
+}
+
+.form__link {
+  color: #b9b9cc
+}
