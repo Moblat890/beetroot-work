@@ -281,6 +281,12 @@ main section .watch {
     width: 150px;
     height: 35px;
   }
+  .sect-icons .title2sect {
+    margin: 0px auto;
+    width: 100%;
+    line-height: 46px;
+    font-size: 30px;
+  }
 }
 
 .sect-design-prof {
@@ -334,6 +340,16 @@ main section .watch {
   .sect-design-prof .picture {
     padding-top: 30px;
     width: 80%;
+  }
+}
+
+@media (max-width: 434px) {
+  .sect-design-prof h2 {
+    font-size: 36px;
+    line-height: 39px;
+  }
+  .sect-design-prof {
+    padding: 70px 0;
   }
 }
 
