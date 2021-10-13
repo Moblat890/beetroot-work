@@ -51,10 +51,11 @@ header {
   width: 100%;
   max-width: 1126px;
   margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 header .logo {
-  margin: 38px 0;
+  margin: 38px 5px 38px 0;
 }
 
 header .div-nav {
@@ -109,7 +110,27 @@ header .btn-sign .btn-up-nav a {
   }
 }
 
-@media (max-width: 763px) {}
+@media (max-width: 750px) {
+  header .logo {
+    margin: 38px 5px 10px 0;
+  }
+}
+
+@media (max-width: 559px) {
+  header .btn-sign {
+    padding-top: 10px;
+  }
+  header .btn-sign button {
+    width: 60px;
+    height: 30px;
+  }
+  header .btn-sign .btn-in-nav a {
+    font-size: 13px;
+  }
+  header .btn-sign .btn-up-nav a {
+    font-size: 13px;
+  }
+}
 
 div {
   display: inline-block;
@@ -286,6 +307,7 @@ main section .watch {
     width: 100%;
     line-height: 46px;
     font-size: 30px;
+    padding-bottom: 30px;
   }
 }
 
