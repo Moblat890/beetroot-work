@@ -13,7 +13,6 @@
 </head>
 
 <body>
-
   <div class="block">
     <div class="block__panel">
       <div class="tabs block__tabs">
@@ -24,7 +23,6 @@
           <li class="tabs__item" tabindex="">
             <a href="#join" class="tabs__link tabs__link--active">Join us</a>
           </li>
-          <li class="tabs__devider"></li>
         </ul>
         <div class="tabs__body">
           <div id="sign" class="tabs__content">
@@ -32,7 +30,7 @@
               <div class="form">
                 <div class="form__filling">
                   <label class="form__label" for="username">Username</label>
-                  <input class="form__input" minlength="3" type="email" name="username" id="username" tabindex="">
+                  <input class="form__input" minlength="3" type="text" name="username" id="username" tabindex="">
                   <div class="form__error">error</div>
                 </div>
                 <div class="form__filling">
@@ -41,8 +39,9 @@
                   <div class="form__error">error</div>
                 </div>
                 <div class="form__filling form__filling--checkbox">
+                  <input checked type="checkbox" name="keep" id="keep" tabindex="">
                   <label class="form_label form_label--checkbox" for="keep">
-                    <input checked type="checkbox" name="keep" id="keep" tabindex="">
+
                     <span class="form__checkbox">&#10004;</span>
                     Keep me signed in
                   </label>
@@ -62,7 +61,7 @@
               <div class="form">
                 <div class="form__filling">
                   <label class="form__label" for="username">Username</label>
-                  <input class="form__input" minlength="3" type="email" name="username" id="usernames" tabindex="">
+                  <input class="form__input" minlength="3" type="text" name="username" id="usernames" tabindex="">
                   <div class="form__error">error</div>
                 </div>
                 <div class="form__filling">
