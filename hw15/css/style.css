@@ -187,11 +187,11 @@ body {
   font-size: 13px;
 }
 
-[type=checkbox]:checked+.form__checkbox {
+[type=checkbox]:checked+.form_label .form__checkbox {
   font-size: 12px;
 }
 
-[type=checkbox]:focus+.form__checkbox {
+[type=checkbox]:focus+.form_label .form__checkbox {
   border: 2px solid #e66a64;
 }
 
