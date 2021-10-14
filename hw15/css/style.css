@@ -122,7 +122,7 @@ body {
 }
 
 .tabs__link:focus {
-  outline: 1px solid #1b3b92;
+  outline: 2px solid #102c79;
 }
 
 .tabs__link--active {
