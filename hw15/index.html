@@ -19,20 +19,20 @@
       <div class="tabs block__tabs">
         <ul class="tabs__list">
           <li class="tabs__item" tabindex="">
-            <a href="/" class="tabs__link">Sign in</a>
+            <a href="#sign" class="tabs__link">Sign in</a>
           </li>
           <li class="tabs__item" tabindex="">
-            <a href="/" class="tabs__link tabs__link--active">Join us</a>
+            <a href="#join" class="tabs__link tabs__link--active">Join us</a>
           </li>
           <li class="tabs__devider"></li>
         </ul>
         <div class="tabs__body">
-          <div class="tabs__content">
+          <div id="sign" class="tabs__content">
             <form action="#" method="get">
               <div class="form">
                 <div class="form__filling">
                   <label class="form__label" for="username">Username</label>
-                  <input class="form__input" minlength="3" type="text" name="username" id="username" tabindex="">
+                  <input class="form__input" minlength="3" type="email" name="username" id="username" tabindex="">
                   <div class="form__error">error</div>
                 </div>
                 <div class="form__filling">
@@ -41,8 +41,8 @@
                   <div class="form__error">error</div>
                 </div>
                 <div class="form__filling form__filling--checkbox">
-                  <input checked type="checkbox" name="keep" id="keep" tabindex="">
                   <label class="form_label form_label--checkbox" for="keep">
+                    <input checked type="checkbox" name="keep" id="keep" tabindex="">
                     <span class="form__checkbox">&#10004;</span>
                     Keep me signed in
                   </label>
@@ -50,7 +50,37 @@
                 <div class="form__filling form__filling--submit">
                   <button class="btn btn--press" type="submit" tabindex="">Sign in</button>
                 </div>
-                <div class="form__header">
+                <div class="form__footer">
+                  <a href="/" class="form__link">Forgot password</a>
+                  <a href="/" class="form__link">Create an account</a>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div id="join" class="tabs__content">
+            <form action="#" method="get">
+              <div class="form">
+                <div class="form__filling">
+                  <label class="form__label" for="username">Username</label>
+                  <input class="form__input" minlength="3" type="email" name="username" id="usernames" tabindex="">
+                  <div class="form__error">error</div>
+                </div>
+                <div class="form__filling">
+                  <label class="form__label" for="password">Password</label>
+                  <input class="form__input" type="password" required name="password" id="passwords" tabindex="">
+                  <div class="form__error">error</div>
+                </div>
+                <div class="form__filling form__filling--checkbox">
+                  <label class="form_label form_label--checkbox" for="keeps">
+                    <input checked type="checkbox" name="keep" id="keeps" tabindex="">
+                    <span class="form__checkbox">&#10004;</span>
+                    Keep me signed in
+                  </label>
+                </div>
+                <div class="form__filling form__filling--submit">
+                  <button class="btn btn--press" type="submit" tabindex="">Sign in</button>
+                </div>
+                <div class="form__footer">
                   <a href="/" class="form__link">Forgot password</a>
                   <a href="/" class="form__link">Create an account</a>
                 </div>
