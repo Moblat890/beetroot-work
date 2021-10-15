@@ -119,10 +119,11 @@ body {
 
 .tabs__link:hover {
   border-bottom: 3px solid #e66a64;
+  color: #ffffff;
 }
 
 .tabs__link:focus {
-  outline: 2px solid #102c79;
+  outline: 2px solid #384d86;
 }
 
 .tabs__link--active {
@@ -184,7 +185,6 @@ body {
   display: flex;
   align-items: center;
   letter-spacing: 1px;
-  font-size: 13px;
 }
 
 [type=checkbox]:checked+.form_label .form__checkbox {
@@ -203,7 +203,7 @@ body {
   justify-content: center;
   align-items: center;
   border: 2px solid #23ae92;
-  transition: ease .3s font-size;
+  transition: ease .3s;
   margin-right: 7px;
   font-size: 0;
 }
