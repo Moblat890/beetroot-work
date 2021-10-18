@@ -1,0 +1,48 @@
+main {
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+.section-top {
+  display: grid;
+  grid-template: 1fr 1fr 1.7fr / 1fr 1fr 1fr;
+  gap: 55px;
+  grid-template-areas: "picture1 picture1 picture2" "picture1 picture1 picture3" "picture4 picture5 picture6";
+  padding: 80px 95px;
+}
+
+.content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.picture1 {
+  grid-area: picture1;
+}
+
+.picture2 {
+  grid-area: picture2;
+}
+
+.picture3 {
+  grid-area: picture3;
+}
+
+.picture4 {
+  grid-area: picture4;
+}
+
+.picture5 {
+  grid-area: picture5;
+}
+
+.picture6 {
+  grid-area: picture6;
+}
+
+.section-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}

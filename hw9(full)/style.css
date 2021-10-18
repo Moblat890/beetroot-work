@@ -41,11 +41,6 @@ body {
   box-sizing: border-box;
 }
 
-main {
-  max-width: 1170px;
-  margin: 0 auto;
-}
-
 header {
   max-width: 1170px;
   display: flex;
@@ -85,4 +80,10 @@ header ul li a {
   font-weight: 700;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
+}
+
+main {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
 }
