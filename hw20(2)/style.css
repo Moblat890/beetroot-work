@@ -1,0 +1,277 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: 'webfontregular';
+  src: url('muli-italic.woff2') format('woff2'), url('muli-italic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'webfontregular';
+  src: url('muli-semibold.woff2') format('woff2'), url('muli-semibold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Muli", sans-serif;
+  background-color: #f2f2f2;
+}
+
+main {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.nav__link {
+  font-size: 18px;
+  color: #111111;
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: 29px;
+}
+
+.content {
+  padding-top: 96px;
+}
+
+.content__text {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title__text__left__shooting {
+  max-width: 173px;
+  height: 28px;
+  font-size: 22px;
+  color: #4a4ff2;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.title__left__text {
+  padding-top: 32px;
+  max-width: 635px;
+  height: 233px;
+  font-size: 40px;
+  line-height: 60px;
+  color: #111111;
+  font-weight: 700
+}
+
+.title__text__left a {
+  text-decoration: none;
+  color: #4a4ff2;
+}
+
+.title__text__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.title__text__right__with-line {
+  font-size: 18px;
+  color: #111111;
+  font-weight: 400;
+  font-style: italic;
+  margin: 0 70px 10px 0;
+}
+
+.title__text__right__with-line::before {
+  content: "";
+  background: #111111;
+  height: 2px;
+  width: 30px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.content__grid {
+  margin-top: 90px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.content__grid__text {
+  display: grid;
+  padding-top: 91px;
+  grid-template-columns: 1.8fr 0.5fr 0.5fr;
+}
+
+.content__grid__text__left {
+  max-width: 635px;
+  font-size: 28px;
+  line-height: 38px;
+  color: #111111;
+  font-weight: 700;
+}
+
+.link {
+  display: block;
+  font-size: 18px;
+  color: #111111;
+  text-decoration: none;
+  line-height: 2;
+}
+
+.line1 {
+  margin-top: 100px;
+}
+
+.content__awards {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1.5fr 1fr;
+  grid-template-areas: "title title site genesis year" "title title best genesistemp year1";
+}
+
+.content__title {
+  grid-area: title;
+  font-size: 22px;
+  color: #111111;
+  font-weight: 700;
+}
+
+.content__site {
+  grid-area: site;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.content__genesis {
+  grid-area: genesis;
+  font-size: 16px;
+  padding-left: 72px;
+}
+
+.content__genesis h6 {
+  font-weight: 600;
+}
+
+.content__year {
+  grid-area: year;
+  text-align: right;
+  font-size: 16px;
+}
+
+.content__year1 {
+  grid-area: year1;
+  font-size: 16px;
+  text-align: right;
+}
+
+.content__best {
+  grid-area: best;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.content__genesistemp {
+  grid-area: genesistemp;
+  font-size: 16px;
+  padding-left: 72px;
+}
+
+.content__genesistemp h6 {
+  font-weight: 600;
+}
+
+.content__genesis__text {
+  max-width: 144px;
+  font-size: 16px;
+  line-height: 26px;
+  padding-top: 20px;
+}
+
+.content__genesistemp__text {
+  max-width: 144px;
+  font-size: 16px;
+  line-height: 26px;
+  padding-top: 20px;
+}
+
+.line2 {
+  margin: 58px 0 51px;
+}
+
+.content__cssdesign {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1.5fr 1fr;
+  grid-template-areas: "title title site genesis year" "title title best genesistemp year1";
+}
+
+.line3 {
+  margin-top: 60px;
+}
+
+.footer {
+  margin: 114px 0 47px;
+  display: grid;
+  grid-template-columns: 1.7fr 0.5fr 0.5fr;
+}
+
+.footer__nav__link {
+  margin-right: 30px;
+  color: #111111;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.footer_icons {
+  text-align: right;
+}
+
+.footer__icon {
+  margin-left: 24px;
+}
