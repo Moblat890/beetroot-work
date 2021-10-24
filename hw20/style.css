@@ -46,3 +46,8 @@ main {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
+
+.section-bottom:hover img:not(:hover) {
+  opacity: 0.5;
+  transition: all .1s ease-in;
+}

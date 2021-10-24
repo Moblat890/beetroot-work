@@ -36,14 +36,14 @@ table {
 }
 
 @font-face {
-  font-family: 'webfontregular';
+  font-family: "Muli";
   src: url('muli-italic.woff2') format('woff2'), url('muli-italic.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'webfontregular';
+  font-family: "Muli";
   src: url('muli-semibold.woff2') format('woff2'), url('muli-semibold.woff') format('woff');
   font-weight: normal;
   font-style: normal;
@@ -138,7 +138,12 @@ main {
   margin-top: 90px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  grid-auto-flow: dense;
+  grid-template-areas: ;
 }
+
+.content__grid img {}
 
 .content__grid__text {
   display: grid;
