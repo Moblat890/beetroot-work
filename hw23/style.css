@@ -1,0 +1,32 @@
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: rgb(146, 181, 207);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 40px;
+  padding: 20px;
+}
+
+.container .card {
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.card__back {
+  width: 100%;
+  object-fit: cover;
+}
+
+.card__front {
+  width: 160px;
+  height: 218px;
+  border: 1px solid #000;
+  border-radius: 15px;
+}
+
+.container .card img:hover {}

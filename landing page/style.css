@@ -116,8 +116,6 @@ header .btn-sign .btn-up-nav a {
   }
 }
 
-@media (max-width: 755px) {}
-
 @media (max-width: 559px) {
   header .btn-sign {
     padding-top: 10px;

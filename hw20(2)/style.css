@@ -139,8 +139,55 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  grid-auto-flow: dense;
-  grid-template-areas: ;
+  grid-template-areas: "pict1 pict2 pict3" "pict4 pict5 pict6" "pict7 pict8 pict9" "pict10 pict11 pict12";
+}
+
+.pict1 {
+  grid-area: pict1;
+}
+
+.pict2 {
+  grid-area: pict2;
+}
+
+.pict3 {
+  grid-area: pict3;
+}
+
+.pict4 {
+  grid-area: pict4;
+}
+
+.pict5 {
+  grid-area: pict5;
+}
+
+.pict6 {
+  grid-area: pict6;
+}
+
+.pict7 {
+  grid-area: pict7;
+}
+
+.pict8 {
+  grid-area: pict8;
+}
+
+.pict9 {
+  grid-area: pict9;
+}
+
+.pict10 {
+  grid-area: pict10;
+}
+
+.pict11 {
+  grid-area: pict11;
+}
+
+.pict12 {
+  grid-area: pict12;
 }
 
 .content__grid img {}
