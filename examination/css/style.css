@@ -289,7 +289,7 @@ optgroup {
 
 .sect__header {
   font-family: "Josefin Sans", sans-serif;
-  background: url(/images/Image.png) no-repeat left center;
+  background: url(../images/Image.png) no-repeat left center;
   background-size: cover;
 }
 .sect__header .block__bhromaon {
@@ -449,7 +449,7 @@ optgroup {
 }
 
 .section__why .wrapper__block {
-  background: url(/images/Rectangle7.png) left center;
+  background: url(../images/Rectangle7.png) left center;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -601,7 +601,7 @@ optgroup {
 }
 
 .section__spain1 {
-  background: url(/images/Rectangle414.png) top center;
+  background: url(../images/Rectangle414.png) top center;
   background-size: cover;
   height: 100vh;
   display: -ms-grid;
@@ -662,7 +662,7 @@ optgroup {
 }
 
 .section__spain2 {
-  background: url(/images/Rectangle4141.png) top center;
+  background: url(../images/Rectangle4141.png) top center;
   background-size: cover;
   height: 100vh;
   display: -ms-grid;
@@ -725,7 +725,7 @@ optgroup {
 }
 
 .section__bottom {
-  background: url(/images/Rectangle4142.png) left center;
+  background: url(../images/Rectangle4142.png) left center;
   background-size: cover;
   height: 100vh;
 }
