@@ -7,19 +7,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Examenation</title>
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">  <!-- Дублирование -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Дублирование -->
   <link href="https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
-  <link type="image/png" sizes="16x16" rel="icon" href="/images/icons8.png">
+  <link type="image/png" sizes="16x16" rel="icon" href="/images/icons8.png"> <!--
+    иконка не работает
+   -->
   <link href="https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans:wght@300;400;700&display=swap"
     rel="stylesheet">
 </head>
 
 <body>
+<!--
+Мои коментарии удаляются после исправления !
+
+  + cod-style - Используй авто-выравние кода:
+  + PixelPerfect :
+    - первые 2е секции прям радовали, дальше все поплыло =((
+      Леньтяй
+  + Адаптив - Перкрасный :
+  + БЕМ - слабенько :
+    - неправильная изначальная струтура -
+        Внури main - им нужно дать одни общий класс. а не разные (section__why, section__spain1 .... )
+    - В названиях классов - нужно учитывать что они буду переиспользоватся тобой и твоими колегами.
+      И старатся называть класс одним словом без разделителей. @Info: https://ru.bem.info/methodology/quick-start/
+      Класс должен отвечать на вопрос "кто ты? / что это?" и без лишних приставок типо "block__"
+  + other :
+    - дубликаты ссылок для подключения. Нет нужды повторять похожжие ссылки.
+    - иконка "icons8.png" не работает!
+    - считается плохим тоном если в репозиторий попадают системные настройки или твоего редактора (.vscode)
+      Используй .gitignore @Info: https://tyapk.ru/blog/post/gitignore
+    - Круто сделал бургер меню. Но не досмотрел баг.  block__spain1 - перекрывает твое боковое меню. Но всеравно Круто!
+-->
   <header>
+    <!--
+    скрин не на всю высоту экрана.
+    + PixelPerfect :
+      - Зато 90% - сходство с макетом. Ето прекрассно. Но скрин в любом случае должен был быть в 100vh.
+    + Адаптив - Просто молодец. Онид из лучших адаптивов! :
+        1) Есть все размеры
+        2) Есть прекрасная ризина и четкое перестроение блоков
+        3) На всех размерах нету никаких проблем.
+        4) Размер текста в строка поиска может быть маловат - представляй  мобильная версия в руке.
+    + БЕМ - слабенько :
+    + other :
+      - Круто сделал бургер меню
+      - @Info: https://developer.mozilla.org/ru/docs/Web/CSS/scroll-behavior
+        Почитай и используй для плавности скрола. Сам недавно узнал и тебе советую
+      -->
     <section class="sect__header">
       <div class="burger-menu">
         <input id="menu-toggle" type="checkbox" />
@@ -81,6 +119,19 @@
 
   <main>
     <section class="section__why" id="section2">
+      <!--
+      Секция хорошо сделана!
+      + PixelPerfect :
+        - Сходство в 60%. Потому что твои блоки сильно разнесенвы в стороны. Но по высоте все четенько! Вижу стрался.
+        - Прохлопал нижний отступ для "wrapper__block", изза етого дальше весь PP поплывет...  =((
+      + Адаптив - збсь:
+        - пустое пространство - максимально используемое.
+        - Картинки видны
+        - текст читабелен
+      + БЕМ - слабенько :
+      + other :
+        и с высотой блока display-zone - тоже не угадал...
+      -->
       <div class="wrapper__block">
         <div class="block__whychoose">
           <div class="block__whychoose__wrapper">
@@ -134,6 +185,12 @@
       </div>
     </section>
     <section class="section__spain1">
+      <!--
+      А ету и последуйшие секции ненужно было подгонять под высоту экрана !!!
+      + PixelPerfect :
+      + Адаптив - збсь:
+      + БЕМ - слабенько :
+      -->
       <div class="block__spain1">
         <p class="block__spain1__spain">Spain</p>
         <h4 class="block__spain1__title">GRAND SPAIN MADRID</h4>
@@ -143,6 +200,9 @@
       </div>
     </section>
     <section class="section__spain2">
+      <!--
+      все тоже что и с предведущей секцией
+      -->
       <div class="block__spain1">
         <p class="block__spain1__spain">Spain</p>
         <h4 class="block__spain1__title">GRAND SPAIN MADRID</h4>
@@ -152,6 +212,16 @@
       </div>
     </section>
     <section class="section__bottom">
+      <!--
+      + PixelPerfect :
+        - он есть но только по самому внутренниму блоку
+      + Адаптив - леньтяй:
+        - А где резина ??? все так четенько было...
+        - картинку можно было адаптировать под динамический размер обертки
+        - текст - вообще изи адаптировать, просто в % задаешь блок и все.
+        - на последнеи - текст блошиный
+      + БЕМ - все теже замечания :
+      -->
       <div class="container">
         <div class="wrap__title">
           <h2 class="wrap__title__text">What Our Tourist Say</h2>
@@ -179,6 +249,14 @@
   </main>
 
   <footer>
+    <!--
+    + PixelPerfect :
+      - Устал делать смещение для каждой секции...
+      - но тут 98% совпадение. и высота и размер... вообщем тут все четко.
+    + Адаптив - леньтяй:
+      - все супер но на последнеи отступы сверху снизу над больше оставлять. Как на 950
+    + БЕМ - збсь :
+    -->
     <div id="footer" class="footer">
       <div class="footer__logo">
         <p class="footer__logo__text">
