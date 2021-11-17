@@ -238,9 +238,10 @@ optgroup {
   padding: 80px 0;
   list-style: none;
   background-color: #1a1a1d;
-  opacity: 1;
   -webkit-box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
           box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
 }
 
 .menu-item {
@@ -251,6 +252,8 @@ optgroup {
   font-size: 15px;
   font-weight: 600;
   text-decoration: none;
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
 }
 
 .menu-item:focus {
