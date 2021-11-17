@@ -1,7 +1,7 @@
 /*----------Цикли----------------
 
 ==========Task1=================
-
+//Подсчитать сумму всех чисел в заданном пользователем диапазоне.
 
 let v1 = Number(prompt('Enter number'));
 console.log('v1', v1);
@@ -22,6 +22,7 @@ console.log('v3', v3);
 
 
 //-----------Task2-------------
+//Запросить 2 числа и найти только наибольший общий делитель.
 
 /* let v1 = prompt('Enter number 1');
 let v2 = prompt('Enter number 2');
@@ -33,17 +34,16 @@ for (let index = v1; index <= v1; index--) {
 } */
 
 //============Task3==========
-/* var x = 7;
-console.log(x++);
-console.log(x) */
+
 
 
 
 //            Task8        
+//Зациклить вывод дней недели таким образом: «День недели. Хотите увидеть следующий день?» и так до тех пор, пока пользователь нажимает OK
+
 /* let currentDay = 'Sunday';
 let isYes;
 for (isYes = true; isYes == true; isYes = confirm(`Сurrent day ${currentDay}, want to continue?`)) {
-
 
   if (currentDay == 'Monday') {
     currentDay = 'Tuesday';

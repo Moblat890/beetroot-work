@@ -1,4 +1,7 @@
 //  Task1
+/*Написать функцию, которая принимает 2 числа
+и возвращает -1, если первое меньше, чем второе;
+1 – если первое больше, чем второе; и 0 – если числа равны.*/
 /* let a;
 let b;
 function showNumb(a, b) {
@@ -13,16 +16,24 @@ function showNumb(a, b) {
 showNumb() */
 
 
-//           Task2           
-function firstFactorial(num) {
+/*           Task2
+Написать функцию, которая вычисляет факториал
+переданного ей числа.*/
+
+/* function firstFactorial(num) {
 
   for (let i = num - 1; i >= 1; i--) {
     num *= i;
   }
   return num;
 }
-console.log(firstFactorial(3));
+console.log(firstFactorial()); */
 
 
 //            Task3
+/*Написать функцию, которая принимает три отдельные цифры
+и превращает их в одно число.
+Например: цифры 1, 4, 9 превратятся в число 149.*/
+
+
 
