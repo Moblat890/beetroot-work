@@ -18,7 +18,8 @@ else if (age >= 60) {
 
 
 //          Task2
-//Запросить у пользователя число от 0 до 9 и вывести ему спецсимвол, который расположен на этой клавише (1–!, 2–@, 3–# и т. д).
+/*Запросить у пользователя число от 0 до 9 и вывести ему спецсимвол,
+который расположен на этой клавише (1–!, 2–@, 3–# и т. д).*/
 
 /*let number = prompt('Enter the number from 0 to 9');
 switch (number) {
@@ -53,23 +54,27 @@ switch (number) {
   case '9':
     console.log('9 is (');
     break;
-} * /
+    default:
+
+} */
 
 
 //     Task3
-//Запросить у пользователя трехзначное число и проверить, есть ли в нем одинаковые цифры.
+/*Запросить у пользователя трехзначное число и проверить,
+есть ли в нем одинаковые цифры.*/
 
 /* let num = prompt(' Enter number from 100 to 999', 0);
-if (num[0] == num[1] || num[0] == num[2] || num[0] == num[3]) {
-  alert('true');
+if (num[0] == num[1] || num[0] == num[2] || num[1] == num[2]) {
+  alert('There are the same numbers');
 } else {
-  alert('false');
+  alert('There are no identical numbers');
 } */
 
 
 
 //     Task4      
-//Запросить у пользователя год и проверить, високосный он или нет. Високосный год либо кратен 400, либо кратен 4 и при этом не кратен 100.
+/*Запросить у пользователя год и проверить, високосный он или нет.
+Високосный год либо кратен 400, либо кратен 4 и при этом не кратен 100.*/
 /* let year = prompt('Enter any year', 0);
 if (year % 4 == 0 && year % 100 !== 0) {
   alert('Leap year');
@@ -81,13 +86,12 @@ if (year % 4 == 0 && year % 100 !== 0) {
 //       Task5        
 //Запросить у пользователя пятиразрядное число и определить, является ли оно палиндромом.
 /* let num = prompt('Enter number from 10000 to 99999', 0);
-let a;
 if ((num[0] === num[4]) && (num[1] === num[3])) {
-  a = 'Palindrome';
+  num = 'Palindrome';
 } else {
-  a = 'Not a palindrome';
+  num = 'Not a palindrome';
 }
-console.log(a); */
+console.log(num); */
 
 //           Task6          
 //Написать конвертор валют. Пользователь вводит количество USD, выбирает, в какую валюту хочет перевести EUR, UAN или AZN, и получает в ответ соответствующую сумму.
@@ -106,25 +110,42 @@ switch (currency) {
 } */
 
 //          Task7      
-//Запросить у пользователя сумму покупки и вывести сумму к оплате со скидкой: от 200 до 300 – скидка будет 3%, от 300 до 500 – 5%, от 500 и выше – 7%
+/*Запросить у пользователя сумму покупки и
+вывести сумму к оплате со скидкой: от 200 до 300 – скидка будет 3%,
+от 300 до 500 – 5%, от 500 и выше – 7%*/
 /* let amount = prompt('Enter purchase amount');
 if (amount >= 200 && amount < 300) {
   alert(amount - amount * 0.03 + '$ with 3% discount');
-} else if
-  (amount >= 300 && amount < 500) {
+} else if (amount >= 300 && amount < 500) {
   alert(amount - amount * 0.05 + '$ with 5% discount');
 } else if (amount >= 500) {
   alert(amount - amount * 0.07 + '$ with 7% discount');
 } */
 
 //          Task 8          
-
+/* Запросить у пользователя длину окружности и периметр квадрата.
+Определить, может ли такая окружность поместиться в указанный квадрат. */
+// l = πd;
+// P = 4 * a;
+//d = P/π;
+/* let circuit = Number(prompt('Enter circuit'));
+let thePerimeterOfTheSquare = Number(prompt('Enter the Perimeter Of The Square'));
+let diametr = circuit / Math.PI;
+let sideOfTheSquare = thePerimeterOfTheSquare / 4;
+if (diametr <= sideOfTheSquare) {
+  console.log('true');
+} else {
+  console.log('false');
+} */
 
 
 
 
 //         Task9           
-//Задать пользователю 3 вопроса, в каждом вопросе по 3 варианта ответа. За каждый правильный ответ начисляется 2 балла. После вопросов выведите пользователю количество набранных баллов.
+/*Задать пользователю 3 вопроса, в каждом вопросе по 3 варианта ответа.
+За каждый правильный ответ начисляется 2 балла.
+После вопросов выведите пользователю количество набранных баллов.*/
+
 /* let capital = prompt('What is the capital of France? 1 - Bordo, 2 - Paris, 3 - Berlin');
 let currency = prompt('What is the currency of Poland? 1 - UAN, 2 - USD, 3 - PLN');
 let worldСup = prompt('Which national football team won the world championship the most? 1 - Brasil, 2 - Germany, 3 - Italy')
@@ -139,6 +160,46 @@ alert('Your result is ' + scores); */
 
 
 
+//      Task10
+// Запросить дату (день, месяц, год) и вывести следующую за ней дату. 
+// Учтите возможность перехода на следующий месяц, год, а также високосный год.
+/* let day = 28;
+let month  = 02;
+let year = 2004;
+let nextDay = day;
+let nextMonth = month;
+let nextYear = year;
+let daysPerMonth;
+
+ if (month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12) {
+  daysPerMonth = 31
+} else if (month == 2) {
+
+  if (year % 400 == 0 ||  year % 4 == 0 && year % 100 !== 0)// perevirka na vysokos
+  {
+    daysPerMonth = 29
+  } else daysPerMonth = 28;
+
+} else {
+  daysPerMonth = 30;
+}
+
+if (daysPerMonth > day ){
+  nextDay = day + 1;
+} else {
+  nextMonth = month + 1;
+  nextDay = 1;
+ }
+
+if (day == 31 && month == 12) {
+  nextDay = 1;
+  nextMonth = 1;
+  nextYear = year + 1;
+}
+
+console.log(day, month, year );
+console.log(nextDay, nextMonth, nextYear);
+ */
 
 
 

@@ -284,6 +284,7 @@ optgroup {
 #menu-toggle:checked ~ .menubox {
   visibility: visible;
   left: 0;
+  z-index: 999;
 }
 
 .sect__header {

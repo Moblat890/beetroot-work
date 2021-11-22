@@ -36,4 +36,91 @@ console.log(firstFactorial()); */
 Например: цифры 1, 4, 9 превратятся в число 149.*/
 
 
+/* function numberConversion(a, b, c) {
+  let num;
+  num = String(a) + String(b) + String(c);
+  return Number(num);
+}
+console.log(numberConversion(7, 4, 8));
+ */
+
+//Task4
+/* Написать функцию, которая принимает длину и ширину прямоугольника
+и вычисляет его площадь.Если в функцию передали 1 параметр, то она вычисляет площадь квадрата.
+ */
+/* function shapeArea(a, b) {
+  if (a && b == undefined) {  //Якщо a - ввели, b - ні;
+    return a * a;
+  } else if (a && b) { // Якщо ввели a і b;
+    return a * b;
+  } else {  //Якщо нічого не ввели;
+    return 'Enter number';
+  }
+}
+console.log(shapeArea(3, 5));
+console.log(shapeArea(4));
+console.log(shapeArea()); */
+
+//        Task5
+/* Написать функцию, которая проверяет, является ли переданное
+ей число совершенным. Совершенное число – это число,
+равное сумме всех своих собственных делителей. */
+//1 + 2 + 4 + 7 + 14 = 28
+
+/* let num = parseInt(prompt('Enter a number to check'));
+let PerfectNumber = function (a) {
+  let result = 0;
+  for (i = 1; i < a; i++) {
+    if (a % i === 0) {
+      result += i;
+    }
+  }
+  if (result === a) {
+    return 'The number entered ' + a + ' is perfect';
+  } else {
+    return 'The number entered ' + a + ' is not perfect';
+  }
+}
+
+console.log(PerfectNumber(num)); */
+
+
+//=============Task6=============
+/* Написать функцию, которая принимает минимальное и
+максимальное значения для диапазона, и выводит только те числа
+из диапазона, которые являются совершенными.
+Используйте написанную ранее функцию, чтобы узнавать,
+совершенное число или нет.
+ */
+
+/* let a1 = prompt('Enter first number');
+let a2 = prompt('Enter second number');
+
+let PerfectNumber = function (a) {
+  let result = 0;
+  for (i = 1; i < a; i++) {
+    if (a % i === 0) {
+      result += i;
+    }
+  }
+  return result === a;   //  Boolean
+}
+
+function diapazon(start, end) {
+  for (let i = a1; i <= a2; i++) {
+    if (PerfectNumber(i)) {
+      console.log(i);
+    }
+  }
+}
+diapazon(a1, a2); */
+
+
+//==============Task7============
+/* Написать функцию, которая принимает время (часы, минуты, секунды)
+ и выводит его на экран в формате «чч:мм:сс».
+ Если при вызове функции минуты и/или секунды не были переданы,
+  то выводить их как 00. */
+
+
 
