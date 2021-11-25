@@ -116,24 +116,10 @@ function diapazon(start, end) {
 diapazon(a1, a2); */
 
 
-//==============Task7============
-/* Написать функцию, которая принимает время (часы, минуты, секунды)
- и выводит его на экран в формате «чч:мм:сс».
- Если при вызове функции минуты и/или секунды не были переданы,
-  то выводить их как 00. */
-
-
-
-
-
-
-
-
-
 /*  Напиши функцію, яка перевіряє, чи є передане їй число “досконалим числом”. Досконале число - це число, яке дорівнює сумі всіх своїх дільників.
  */
 
-function perfectNumber(num) {
+/* function perfectNumber(num) {
   let result = 0;
   for (i = 1; i < num; i++) {
     if (num % i == 0) {
@@ -146,11 +132,11 @@ function perfectNumber(num) {
     return false;
   }
 }
-//console.log(perfectNumber(27));
-
+console.log(perfectNumber(27));
+ */
 
 /* Напиши функцію, яка приймає мінімальне і максимальне значення для діапазону, і виводить тільки ті числа з діапазону, які є досконалими.Використовуй написану раніше функцію, щоб дізнатися, чи є це число досконалим. */
-let start = 4;
+/* let start = 4;
 let end = 30;
 
 function diapazonNum(a, b) {
@@ -163,7 +149,10 @@ function diapazonNum(a, b) {
   }
   return arr;
 }
-console.log(diapazonNum(start, end));
+console.log(diapazonNum(start, end)); */
+
+
+
 
 
 
