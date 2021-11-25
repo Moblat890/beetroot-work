@@ -124,3 +124,47 @@ diapazon(a1, a2); */
 
 
 
+
+
+
+
+
+
+/*  Напиши функцію, яка перевіряє, чи є передане їй число “досконалим числом”. Досконале число - це число, яке дорівнює сумі всіх своїх дільників.
+ */
+
+function perfectNumber(num) {
+  let result = 0;
+  for (i = 1; i < num; i++) {
+    if (num % i == 0) {
+      result = result + i;
+    }
+  }
+  if (num == result) {
+    return true;
+  } else {
+    return false;
+  }
+}
+//console.log(perfectNumber(27));
+
+
+/* Напиши функцію, яка приймає мінімальне і максимальне значення для діапазону, і виводить тільки ті числа з діапазону, які є досконалими.Використовуй написану раніше функцію, щоб дізнатися, чи є це число досконалим. */
+let start = 4;
+let end = 30;
+
+function diapazonNum(a, b) {
+  const arr = [];
+  for (i = a; i <= b; i++) {
+    if (perfectNumber(i)) {
+      arr.push(i)
+      console.log(i);
+    }
+  }
+  return arr;
+}
+console.log(diapazonNum(start, end));
+
+
+
+
