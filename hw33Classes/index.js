@@ -8,7 +8,7 @@
       метод, що обчислює довжину кола.
       Продемонструй роботу властивостей і методів.
  */
-class Circle {
+/* class Circle {
   constructor(radius, diameter) {
     this._radius = radius;
     this._diameter = diameter;
@@ -35,7 +35,7 @@ console.log(circleUser.getRadius)
 console.log(circleUser.setRadius = 20)
 console.log(circleUser.getDiameter)
 console.log(circleUser.circleSquare());
-console.log(circleUser.circleLength());
+console.log(circleUser.circleLength()); */
 
 
 
