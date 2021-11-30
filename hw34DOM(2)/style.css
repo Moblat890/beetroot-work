@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #363336;
+  position: relative;
+}
+
+
+#myBtn {
+  background-color: #9C27B0;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  border: 1px solid rgb(41, 35, 35);
+  border-radius: 5px;
+  width: 180px;
+  cursor: pointer;
+}
+
+.modal {
+  display: none;
+  z-index: 1;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  background-color: #E1BEE7;
+  margin: auto;
+  padding: 0;
+  border: 5px solid #7B1FA2;
+  width: 50%;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: rgb(66, 136, 136);
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #9C27B0;
+  color: white;
+  text-align: center;
+}
+
+.modal-body {
+  padding: 2px 16px;
+}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #9C27B0;
+  color: white;
+  text-align: center;
+}
+
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0
+  }
+
+  to {
+    top: 0;
+    opacity: 1
+  }
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0
+  }
+
+  to {
+    top: 0;
+    opacity: 1
+  }
+}
