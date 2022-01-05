@@ -1,14 +1,14 @@
-﻿
-body {
+﻿body {
   background: black;
   text-align: center;
   width: 100%;
 }
+
 main {
   width: 951px;
   height: 566px;
-  background-color: rgb(153,9,9);
-  border: 8px solid rgb(153,9,9);
+  background-color: rgb(153, 9, 9);
+  border: 8px solid rgb(153, 9, 9);
   margin-top: 40px;
   margin-left: 175px;
 }
@@ -18,7 +18,7 @@ main {
   height: 114px;
 }
 
-.image { 
+.image {
   background: black;
   padding: 25px;
   width: 899px;
@@ -26,7 +26,7 @@ main {
   padding-bottom: 6px;
 }
 
-.image >div {
+.image>div {
   display: inline-block;
 }
 
@@ -43,7 +43,7 @@ main {
   float: right;
   padding-right: 20px;
 }
- 
+
 section .left {
   width: 202px;
   height: 292px;
@@ -55,13 +55,15 @@ section .left {
 section .left a {
   color: #e95b11;
   float: left;
-  line-height: 40px; 
+  line-height: 40px;
+  padding-left: 10px;
 }
 
-div > p {
+div>p {
   color: white;
   text-align: left;
   display: inline-block;
+  padding-left: 10px;
 }
 
 .right {
@@ -75,11 +77,12 @@ div > p {
 .right p {
   color: black;
   margin-bottom: 0px;
+  padding-right: 5px;
 }
 
 .div-text {
-   text-align: left;
- }
+  text-align: left;
+}
 
 h4 {
   height: 18px;
@@ -92,7 +95,7 @@ hr {
 }
 
 footer {
-  background-color: #e95b11; 
+  background-color: #e95b11;
   color: white;
   vertical-align: bottom;
   margin-top: 45px;
